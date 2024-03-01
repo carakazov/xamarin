@@ -1,0 +1,24 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  backend:
+    build:
+      context: "C:\\Users\\carak\\Desktop\\Pure Hatred\\Мобильная разработка\\Курс\
+        ач\\Backend\\Backend"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Backend.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "image-backend:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\carak\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\Users\\carak\\Desktop\\Pure Hatred\\Мобильная разработка\\Курсач\\Backend\\\
+      Backend:/app:rw"
+    - "C:\\Users\\carak\\Desktop\\Pure Hatred\\Мобильная разработка\\Курсач\\Backend\\\
+      Backend:/src:rw"
+    working_dir: "/app"

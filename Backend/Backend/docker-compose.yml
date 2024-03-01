@@ -1,0 +1,15 @@
+﻿services:
+  backend:
+    image: image-backend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "18055:8080"
+  
+  mssqlserver:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      ACCEPT_EULA: Y
+      MSSQL_SA_PASSWORD: Yfgjktjy-1813
+      MSSQL_PID: developer

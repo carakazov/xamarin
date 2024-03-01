@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Frontend.UserItemPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="Name" Text="{Binding Name}"/>
+            <Label x:Name="Surname" Text="{Binding Surname}"/>
+            <Label x:Name="Login" Text="{Binding Login}"/>
+            <Label x:Name="Status" Text="{Binding Status}"/>
+            <Button Text="Изменить статус" Clicked="ChangeStatus"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

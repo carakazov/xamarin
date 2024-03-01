@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Frontend"
+             x:Class="Frontend.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="loginField" Placeholder="login" ClearButtonVisibility="WhileEditing"/>
+            <Entry x:Name="passwordField" Placeholder="password" ClearButtonVisibility="WhileEditing" IsPassword="True"/>
+            <StackLayout>
+                <Button Text="Войти" Clicked="SignIn"/>
+                <Button Text="Регистрация" Clicked="GoToRegister"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
