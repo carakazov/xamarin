@@ -2174,24 +2174,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\BSC-user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend.iOS\\Frontend.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\BSC-user\\Desktop\\курсач Илья\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend.iOS\\Frontend.iOS.csproj",
       "projectName": "Frontend.iOS",
-      "projectPath": "C:\\Users\\user\\source\\repos\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend.iOS\\Frontend.iOS.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend.iOS\\obj\\",
+      "projectPath": "C:\\Users\\BSC-user\\Desktop\\курсач Илья\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend.iOS\\Frontend.iOS.csproj",
+      "packagesPath": "C:\\Users\\BSC-user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BSC-user\\Desktop\\курсач Илья\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BSC-user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2205,8 +2205,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\user\\source\\repos\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend\\Frontend.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend\\Frontend.csproj"
+            "C:\\Users\\BSC-user\\Desktop\\курсач Илья\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend\\Frontend.csproj": {
+              "projectPath": "C:\\Users\\BSC-user\\Desktop\\курсач Илья\\xamarin\\Frontend\\Frontend\\Frontend\\Frontend\\Frontend.csproj"
             }
           }
         }
