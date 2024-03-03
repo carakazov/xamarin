@@ -37,3 +37,27 @@ C:\Users\user\source\repos\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug
 C:\Users\user\source\repos\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\user\source\repos\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.dll
 C:\Users\user\source\repos\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.pdb
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\bin\Debug\netstandard2.0\Frontend.deps.json
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\bin\Debug\netstandard2.0\Frontend.dll
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\bin\Debug\netstandard2.0\Frontend.pdb
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.csproj.AssemblyReference.cache
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\HistoryItemPage.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\HistoryPage.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\RecognizeForm.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\RegisterForm.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\UserItemPage.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\UserListPage.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.AssemblyInfoInputs.cache
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.AssemblyInfo.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.sourcelink.json
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.dll
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\Frontend.pdb
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\GenerateResultPage.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\GenerationHistoryPage.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\PublicViewList.xaml.g.cs
+C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\PublicListItemPage.xaml.g.cs

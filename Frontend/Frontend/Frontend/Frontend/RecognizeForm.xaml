@@ -10,6 +10,9 @@
             <Button Text="Показать историю разпознаваний" Clicked="GoToHistory"/>
             <Label x:Name="Result"/>
             <Button Text="Выйти" Clicked="SigOut"/>
+            <Button Text="Создать букет" Clicked="GoToGenerate"/>
+            <Button Text="Посмотреть историю генераций" Clicked="GoToGenerationHistory"/>
+            <Button Text="Посмотреть публичные посты" Clicked="GoToPublicList"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
