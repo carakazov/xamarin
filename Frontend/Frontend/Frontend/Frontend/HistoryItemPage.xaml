@@ -6,8 +6,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Image x:Name="ImageVal"/>
-            <Label Text="{Binding Result}"/>
-            <Button Text="Назад" Clicked="Cancel"/>
+            <Label VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" Text="{Binding Result}"/>
+            <Button VerticalOptions="EndAndExpand"  Background="#AC72A6" TextColor="White" Margin="20,0,20,20" HeightRequest="50" CornerRadius="10" Text="Назад" Clicked="Cancel"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,15 +4,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Frontend.RecognizeForm">
     <ContentPage.Content>
-        <StackLayout>
-            <Image x:Name="ImageVal"/>
-            <Button Text="Выбрать изображение" Clicked="GetPhoto"/>
-            <Button Text="Показать историю разпознаваний" Clicked="GoToHistory"/>
-            <Label x:Name="Result"/>
-            <Button Text="Выйти" Clicked="SigOut"/>
-            <Button Text="Создать букет" Clicked="GoToGenerate"/>
-            <Button Text="Посмотреть историю генераций" Clicked="GoToGenerationHistory"/>
-            <Button Text="Посмотреть публичные посты" Clicked="GoToPublicList"/>
+        <StackLayout BackgroundColor="#F6D5F3">
+            <Image x:Name="ImageVal" Margin="30" HeightRequest="230"/>
+            <Frame CornerRadius="20" HasShadow="False" HeightRequest="50" WidthRequest="315" BackgroundColor="#F6D5F3" BorderColor="Gray" Margin="20">
+                <Label x:Name="Result" VerticalOptions="Center" HorizontalOptions="Center" FontSize="25"/>
+            </Frame>
+            <Button Background="#AC72A6" TextColor="White" Margin="20,0,20,0" HeightRequest="50" CornerRadius="10" Text="Выбрать изображение" Clicked="GetPhoto"/>
+            <Button Background="#AC72A6" TextColor="White" Margin="20,0,20,0" HeightRequest="50" CornerRadius="10" Text="Показать историю разпознаваний" Clicked="GoToHistory"/>
+            <Button Background="#AC72A6" TextColor="White" Margin="20,0,20,0" HeightRequest="50" CornerRadius="10" Text="Выйти" Clicked="SigOut"/>
+            <Button Background="#AC72A6" TextColor="White" Margin="20,0,20,0" HeightRequest="50" CornerRadius="10" Text="Создать букет" Clicked="GoToGenerate"/>
+            <Button Background="#AC72A6" TextColor="White" Margin="20,0,20,0" HeightRequest="50" CornerRadius="10" Text="Посмотреть историю генераций" Clicked="GoToGenerationHistory"/>
+            <Button Background="#AC72A6" TextColor="White" Margin="20,0,20,0" HeightRequest="50" CornerRadius="10" Text="Посмотреть публичные посты" Clicked="GoToPublicList"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -2,22 +2,25 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Frontend.PublicViewList">
+             x:Class="Frontend.PublicViewList"
+             Background="#AC72A6">
     <ContentPage.Content>
-        <StackLayout>
-            <ListView x:Name="PublicList" ItemsSource="{Binding}" ItemSelected="GoToDetails">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <ViewCell.View>
-                                <StackLayout Orientation="Horizontal">
-                                    <Label Text="{Binding Promt}"/>
-                                </StackLayout>
-                            </ViewCell.View>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+        <Frame CornerRadius="20" HasShadow="False" HeightRequest="200" WidthRequest="315" BackgroundColor="#F6D5F3" BorderColor="Gray" Margin="20">
+            <StackLayout>
+                <ListView x:Name="PublicList" ItemsSource="{Binding}" ItemSelected="GoToDetails">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" TextColor="Gray" Text="{Binding Promt}"/>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </Frame>
     </ContentPage.Content>
 </ContentPage>

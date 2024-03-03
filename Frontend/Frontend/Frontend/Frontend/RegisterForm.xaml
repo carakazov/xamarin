@@ -4,12 +4,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Frontend.RegisterForm">
     <ContentPage.Content>
-        <StackLayout>
-            <Entry x:Name="nameField" Placeholder="Имя" ClearButtonVisibility="WhileEditing"/>
-            <Entry x:Name="surnameField" Placeholder="Фамилия" ClearButtonVisibility="WhileEditing"/>
-            <Entry x:Name="loginField" Placeholder="Логин" ClearButtonVisibility="WhileEditing"/>
-            <Entry x:Name="passwordField" Placeholder="Пароль" IsPassword="True" ClearButtonVisibility="WhileEditing"/>
-            <Button Text="Зарегестрироваться" Clicked="Register"/>
+        <StackLayout Background="#AC72A6">
+            <Label TextColor="White" FontFamily="Courier New" TranslationY="20" Text="Авторизация" FontSize="45" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Frame TranslationY="60" CornerRadius="20" HasShadow="False" HeightRequest="550" BackgroundColor="#F6D5F3" BorderColor="Gray" Margin="20">
+                <StackLayout>
+                    <Entry TranslationY="100" Margin="50,0,50,0" HeightRequest="50" x:Name="nameField" Placeholder="Имя" ClearButtonVisibility="WhileEditing"/>
+                    <Entry TranslationY="100" Margin="50,0,50,0" HeightRequest="50" x:Name="surnameField" Placeholder="Фамилия" ClearButtonVisibility="WhileEditing"/>
+                    <Entry TranslationY="100" Margin="50,0,50,0" HeightRequest="50" x:Name="loginField" Placeholder="Логин" ClearButtonVisibility="WhileEditing"/>
+                    <Entry TranslationY="100" Margin="50,0,50,0" HeightRequest="50" x:Name="passwordField" Placeholder="Пароль" IsPassword="True" ClearButtonVisibility="WhileEditing"/>
+                    <Button Background="#AC72A6" TextColor="White" TranslationY="200" Margin="50,15,50,15" HeightRequest="50" CornerRadius="10" Text="Зарегестрироваться" Clicked="Register"/>
+                </StackLayout>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

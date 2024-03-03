@@ -61,3 +61,7 @@ C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Fronte
 C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\GenerationHistoryPage.xaml.g.cs
 C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\PublicViewList.xaml.g.cs
 C:\Users\BSC-user\Desktop\курсач Илья\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\PublicListItemPage.xaml.g.cs
+C:\Users\user\Source\Repos\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\GenerateResultPage.xaml.g.cs
+C:\Users\user\Source\Repos\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\GenerationHistoryPage.xaml.g.cs
+C:\Users\user\Source\Repos\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\PublicListItemPage.xaml.g.cs
+C:\Users\user\Source\Repos\xamarin\Frontend\Frontend\Frontend\Frontend\obj\Debug\netstandard2.0\PublicViewList.xaml.g.cs

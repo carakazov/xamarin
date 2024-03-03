@@ -2,23 +2,26 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Frontend.UserListPage">
+             x:Class="Frontend.UserListPage"
+             Background="#AC72A6">
     <ContentPage.Content>
-        <StackLayout>
-            <ListView x:Name="Users" ItemsSource="{Binding}" ItemSelected="GoToUser">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <ViewCell.View>
-                                <StackLayout Orientation="Horizontal">
-                                    <Label Text="{Binding Surname}"/>
-                                </StackLayout>
-                            </ViewCell.View>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-            <Button Text="Выйти" Clicked="SigOut"/>
-        </StackLayout>
+        <Frame CornerRadius="20" HasShadow="False" HeightRequest="200" WidthRequest="315" BackgroundColor="#F6D5F3" BorderColor="Gray" Margin="20">
+            <StackLayout>
+                <ListView x:Name="Users" ItemsSource="{Binding}" ItemSelected="GoToUser">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" TextColor="Gray" Text="{Binding Surname}"/>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button Background="#AC72A6" TextColor="White" Margin="0,0,0,0" HeightRequest="50" CornerRadius="10" Text="Выйти" Clicked="SigOut"/>
+            </StackLayout>
+        </Frame>
     </ContentPage.Content>
 </ContentPage>

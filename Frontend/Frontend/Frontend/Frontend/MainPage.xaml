@@ -3,16 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Frontend"
              x:Class="Frontend.MainPage">
-
     <ContentPage.Content>
-        <StackLayout>
-            <Entry x:Name="loginField" Placeholder="login" ClearButtonVisibility="WhileEditing"/>
-            <Entry x:Name="passwordField" Placeholder="password" ClearButtonVisibility="WhileEditing" IsPassword="True"/>
-            <StackLayout>
-                <Button Text="Войти" Clicked="SignIn"/>
-                <Button Text="Регистрация" Clicked="GoToRegister"/>
-            </StackLayout>
+        <StackLayout Background="#AC72A6">
+            <Label TranslationY="0" TextColor="White" Margin="70,0,50,0" FontFamily="Courier New" Text="Авторизация" FontSize="45" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Frame TranslationY="0" CornerRadius="20" HasShadow="False" HeightRequest="500" WidthRequest="315" BackgroundColor="#F6D5F3" BorderColor="Gray" Margin="20">
+                <StackLayout>
+                    <Entry TranslationY="0" Margin="20,0,20,0" HeightRequest="50" x:Name="loginField" Placeholder="login" ClearButtonVisibility="WhileEditing"/>
+                    <Entry TranslationY="0" Margin="20,0,20,0" HeightRequest="50" x:Name="passwordField" Placeholder="password" ClearButtonVisibility="WhileEditing" IsPassword="True"/>
+                    <StackLayout>
+                        <Button Background="#AC72A6" TranslationY="10" TextColor="White" Margin="20,0,20,0" HeightRequest="50" CornerRadius="10" Text="Войти" Clicked="SignIn"/>
+                        <Button Background="#AC72A6" TranslationY="20"  TextColor="White" Margin="20,0,20,0" HeightRequest="50" CornerRadius="10" Text="Регистрация" Clicked="GoToRegister"/>
+                    </StackLayout>
+                    <Label TranslationY="90" TextColor="Gray" Margin="50,0,50,0" Text="Мы в социальных сетях" FontSize="20" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+            <Image x:Name="Image1" TranslationY="-150" TranslationX="-100" HeightRequest="50" />
+            <Image x:Name="Image2" TranslationY="-200" TranslationX="0" HeightRequest="50" />
+            <Image x:Name="Image3" TranslationY="-250" TranslationX="100" HeightRequest="50" />
         </StackLayout>
     </ContentPage.Content>
-
 </ContentPage>

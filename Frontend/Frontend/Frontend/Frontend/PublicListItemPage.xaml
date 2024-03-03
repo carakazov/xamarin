@@ -2,12 +2,15 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Frontend.PublicListItemPage">
+             x:Class="Frontend.PublicListItemPage"
+             BackgroundColor="#F6D5F3">
     <ContentPage.Content>
         <StackLayout>
             <Image x:Name="ImageVal"/>
-            <Label x:Name="Promt"/>
-            <Label x:Name="Rate"/>
+            <Label VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" x:Name="Promt"/>
+            <Frame CornerRadius="20" HasShadow="False" HeightRequest="20" WidthRequest="315" BackgroundColor="#F6D5F3" BorderColor="Gray" Margin="20,20,20,0">
+                <Label VerticalOptions="Center" HorizontalOptions="Center" FontSize="15" x:Name="Rate"/>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

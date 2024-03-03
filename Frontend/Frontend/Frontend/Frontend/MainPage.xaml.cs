@@ -15,6 +15,9 @@ namespace Frontend
         public MainPage()
         {
             InitializeComponent();
+            Image1.Source = ImageSource.FromResource("Frontend.icon.png");
+            Image2.Source = ImageSource.FromResource("Frontend.icontele.png");
+            Image3.Source = ImageSource.FromResource("Frontend.iconvib.png");
         }
 
         private async void SignIn(object sender, EventArgs e)
