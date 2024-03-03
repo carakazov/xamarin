@@ -31,6 +31,86 @@ namespace Frontend
             PropertyNameCaseInsensitive = true,
         };
 
+        public async Task<Response> GenerateResponse(GenerateImageRequest request)
+        {
+            string url = BASE_URL + "/generation";
+            HttpRequestMessage serverRequest = new HttpRequestMessage(HttpMethod.Post, url);
+            serverRequest.Headers.Add("Authorization", "Bearer " + UserTokenHolder.Token);
+            StringContent body = ToJson(request);
+            serverRequest.Content = body;
+            HttpResponseMessage response = await client.SendAsync(serverRequest);
+            string content = await response.Content.ReadAsStringAsync();
+            Response decodedResponse = new Response();
+            if (response.StatusCode == HttpStatusCode.OK)
+            {
+                decodedResponse.Data = JsonSerializer.Deserialize<GenerateImageResponse>(content, options);
+            }
+
+            return decodedResponse;
+        }
+
+        public async Task<Response> RateImg(RateImgDto request)
+        {
+            string url = BASE_URL + "/generation/RateImg";
+            HttpRequestMessage serverRequest = new HttpRequestMessage(HttpMethod.Post, url);
+            serverRequest.Headers.Add("Authorization", "Bearer " + UserTokenHolder.Token);
+            StringContent body = ToJson(request);
+            serverRequest.Content = body;
+            HttpResponseMessage response = await client.SendAsync(serverRequest);
+            Response decoded = new Response()
+            {
+                Code = response.StatusCode
+            };
+            return decoded;
+        }
+
+        public async Task<Response> GetMyGenerationHistory()
+        {
+            string url = BASE_URL + "/generation";
+            HttpRequestMessage serverRequest = new HttpRequestMessage(HttpMethod.Get, url);
+            serverRequest.Headers.Add("Authorization", "Bearer " + UserTokenHolder.Token);
+            HttpResponseMessage response = await client.SendAsync(serverRequest);
+            string content = await response.Content.ReadAsStringAsync();
+            Response decodedResponse = new Response();
+            if (response.StatusCode == HttpStatusCode.OK)
+            {
+                decodedResponse.Data = JsonSerializer.Deserialize<List<GenerationDto>>(content, options);
+            }
+
+            return decodedResponse;
+        }
+
+        public async Task<Response> GetPublicList()
+        {
+            string url = BASE_URL + "/generation/AllPublicView";
+            HttpRequestMessage serverRequest = new HttpRequestMessage(HttpMethod.Get, url);
+            serverRequest.Headers.Add("Authorization", "Bearer " + UserTokenHolder.Token);
+            HttpResponseMessage response = await client.SendAsync(serverRequest);
+            string content = await response.Content.ReadAsStringAsync();
+            Response decodedResponse = new Response();
+            if (response.StatusCode == HttpStatusCode.OK)
+            {
+                decodedResponse.Data = JsonSerializer.Deserialize<List<GenerationDto>>(content, options);
+            }
+
+            return decodedResponse;
+        }
+        
+        public async Task<Response> MakePublic(RateImgDto request)
+        {
+            string url = BASE_URL + "/generation/PublicView";
+            HttpRequestMessage serverRequest = new HttpRequestMessage(HttpMethod.Post, url);
+            serverRequest.Headers.Add("Authorization", "Bearer " + UserTokenHolder.Token);
+            StringContent body = ToJson(request);
+            serverRequest.Content = body;
+            HttpResponseMessage response = await client.SendAsync(serverRequest);
+            Response decoded = new Response()
+            {
+                Code = response.StatusCode
+            };
+            return decoded;
+        }
+        
         public async Task<Response> Auth(AuthRequest request)
         {
             string authUrl = BASE_URL + "/users/auth";

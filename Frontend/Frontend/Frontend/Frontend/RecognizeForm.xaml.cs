@@ -75,5 +75,40 @@ namespace Frontend
             historyPage.BindingContext = history;
             await Navigation.PushAsync(historyPage);
         }
+
+        private async void GoToGenerationHistory(object sender, EventArgs e)
+        {
+            Response response = await App.ApiClient.GetMyGenerationHistory();
+            List<GenerationDto> generations = (List<GenerationDto>)response.Data;
+            GenerationHistoryPage page = new GenerationHistoryPage();
+            page.BindingContext = generations;
+            await Navigation.PushAsync(page);
+        }
+        
+        private async void GoToGenerate(object sender, EventArgs e)
+        {
+            GenerateImageRequest request = new GenerateImageRequest()
+            {
+                Promt = Result.Text
+            };
+            Response response = await App.ApiClient.GenerateResponse(request);
+            GeneratePageDto pageDto = new GeneratePageDto()
+            {
+                Response = (GenerateImageResponse)response.Data,
+                Promt = Result.Text
+            };
+            GenerateResultPage resultPage = new GenerateResultPage();
+            resultPage.BindingContext = pageDto;
+            await Navigation.PushAsync(resultPage);
+        }
+
+        private async void GoToPublicList(object sender, EventArgs e)
+        {
+            Response response = await App.ApiClient.GetPublicList();
+            List<GenerationDto> generations = (List<GenerationDto>)response.Data;
+            PublicViewList list = new PublicViewList();
+            list.BindingContext = generations;
+            await Navigation.PushAsync(list);
+        }
     }
 }

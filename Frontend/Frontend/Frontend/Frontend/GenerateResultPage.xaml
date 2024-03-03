@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Frontend.GenerateResultPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image x:Name="ImageVal"/>
+            <Label x:Name="Promt"/>
+            <Label x:Name="Rate"/>
+            <Button Text="1" Clicked="RateOne"/>
+            <Button Text="2" Clicked="RateTwo"/>
+            <Button Text="3" Clicked="RateThree"/>
+            <Button Text="4" Clicked="RateFour"/>
+            <Button Text="5" Clicked="RateFive"/>
+            <Label  x:Name="IsPublic"/>
+            <Button Text="Изменить публичность" Clicked="MakePublic"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
